@@ -10,6 +10,8 @@ arch:
   - amd64
 apparmor: true
 ingress: true
+ports:
+  8099/tcp: 8099
 ingress_stream: true
 panel_icon: mdi:atom
 image: matt8707/addon-ha-fusion-{arch}
